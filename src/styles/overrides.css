@@ -1,0 +1,9 @@
+.hero-content { position: relative; }
+.hero-portrait { position: absolute; top: -50px; right: 0; width: 92px; height: 116px; padding: 5px; border: 1px solid var(--accent); background: #fff; box-shadow: 12px 14px 0 #e8dff5; transform: rotate(4deg); }
+.hero-portrait img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center top; filter: saturate(.84); }
+.project-visual img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform .5s ease; }
+.project-card:hover .project-visual img { transform: scale(1.04); }
+*:focus-visible { outline: 2px solid #8e79c1; outline-offset: 4px; }
+@media (max-width: 850px) {
+  .hero-portrait { top: -22px; right: 5px; width: 76px; height: 96px; }
+}

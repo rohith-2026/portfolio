@@ -1,0 +1,1 @@
+[data-reveal]{opacity:0}.page-loader .loader-mark{animation:loader-pulse 1.2s ease-in-out infinite}@keyframes loader-pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.1) rotate(8deg)}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}[data-reveal]{opacity:1}}

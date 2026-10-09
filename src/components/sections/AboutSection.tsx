@@ -1,0 +1,7 @@
+import { BrainCircuit, Code2, Sparkles } from "lucide-react";
+import { profile } from "../../data/profile";
+import { achievements } from "../../data/achievements";
+import { SectionWrapper } from "../layout/SectionWrapper";
+import { SectionHeading } from "../ui/SectionHeading";
+
+export function AboutSection() { return <SectionWrapper id="about" className="about-section"><div className="section-inner"><SectionHeading eyebrow="A little about me" title={<>The best work happens where <em>logic meets empathy.</em></>} copy={profile.summary} /><div className="about-grid" data-reveal><div className="portrait-card"><img src={profile.image} alt="Portrait of Anumandla Rohith" /><div className="portrait-caption"><span>Based in</span><strong>Telangana, India</strong></div></div><div className="about-copy"><p>I am drawn to the space between a model’s output and a person’s next decision. That means I care about performance, but also clarity, trust, and the details that make a tool feel effortless.</p><div className="about-principles"><div><BrainCircuit size={20} /><span><strong>Think deeply</strong><small>Curious by default</small></span></div><div><Code2 size={20} /><span><strong>Build simply</strong><small>Useful over flashy</small></span></div><div><Sparkles size={20} /><span><strong>Keep learning</strong><small>Always iterating</small></span></div></div></div></div><div className="stat-strip" data-reveal>{achievements.map((item) => <div key={item.label}><strong>{item.value}</strong><span>{item.label}</span></div>)}</div></div></SectionWrapper>; }

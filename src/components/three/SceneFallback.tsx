@@ -1,0 +1,1 @@
+export function SceneFallback() { return <div className="scene-fallback" aria-hidden="true"><div className="fallback-orb" /><div className="fallback-ring" /><div className="fallback-star">✦</div></div>; }

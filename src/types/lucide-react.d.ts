@@ -1,0 +1,19 @@
+declare module "lucide-react" {
+  export const ArrowDown: any;
+  export const ArrowUpRight: any;
+  export const Award: any;
+  export const BrainCircuit: any;
+  export const Code2: any;
+  export const Github: any;
+  export const GraduationCap: any;
+  export const Instagram: any;
+  export const Languages: any;
+  export const Linkedin: any;
+  export const Mail: any;
+  export const MapPin: any;
+  export const Menu: any;
+  export const Plus: any;
+  export const Sparkles: any;
+  export const Trophy: any;
+  export const X: any;
+}
